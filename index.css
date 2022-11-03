@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.progress{
+    background-color: rgb(17, 0, 255);
+    height: 10px;
+    width: 110px;
+}
+div:empty{
+    background-color: red !important;
+}
+.process_card{
+display:flex;
+gap: 20px;
+align-items: center;
+justify-content: space-around;
+margin: 20px;
+padding: 20px;
+border:solid black;
+border-radius: 5px;
+}
+.progress_details{
+    width: 700px;
+}
+
+.progress_bar{
+    display: block;
+    align-items: center;
+
+}
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(233, 207, 181);
+   
+}
+#left-container{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+}
+#right_container>img{
+    border-radius: 50%;
+    height: 50px;
+    
+}
+#right_container{
+display: flex;
+ align-items: center;
+ gap:30px ;
+
+}
+#main-section{
+    margin:25px 0 0 0 ;
+    border: solid black;
+        border-radius: 5px;
+    
+}
+.first-content{
+    display: flex;
+    gap: 50px;
+}
+.card-course{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+    border: solid black;
+    border-radius: 5px;
+    margin: 5px;
+    }
+button{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background: rgb(80, 80, 192);
+    border-radius: 7px;
+    border: none;   
+}    
+.bootstrap_card{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.card{
+margin: 20px;
+}
+@media screen and (max-width: 600px) {
+    header{
+      display: block;
+      width: 100%;
+    }
+        #left-container{
+        display: block;
+        }
+
+}
+@media screen and (max-width:480px){
+    .first-content>img{
+     height: 50px;
+     width: 50px;
+     
+    }
+}
+@media screen and (max-width:576px){
+    .process_card{
+        display: block;
+    }
+        .progress_details>p{
+            width: 200px;
+        }
+}
